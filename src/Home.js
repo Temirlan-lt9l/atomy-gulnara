@@ -20,7 +20,6 @@ function Home (props) {
             <div className="box">
                 <div className="gag">
                 <h3>CATALOG</h3>
-
                 <div className="miniGrid">
                     <Cutaway src={perfume} nameProduct={"Perfume"} text={ "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum nemo commodi, nisi eum quo amet ipsum sapiente voluptas exercitationem libero quod explicabo saepe. Corrupti, temporibus neque excepturi harum nihil a."}/>
                     <Cutaway src={perfume} nameProduct={"Perfume"}  text={ "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum nemo commodi, nisi eum quo amet ipsum sapiente voluptas exercitationem libero quod explicabo saepe. Corrupti, temporibus neque excepturi harum nihil a."}/>
@@ -31,9 +30,14 @@ function Home (props) {
                 </div>
                 </div>
             </div>
+            <div className="box">
+                <video>
+                    <source src="URL"></source>
+                </video>
+            </div>
         </div>
 
     )
 }
 
-export default Home
+export default Home;
